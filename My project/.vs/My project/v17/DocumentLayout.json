@@ -3,22 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\c.legaspi681\\OneDrive - Bow Valley College\\Documents\\GitHub\\Final_Project-QB-10\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\c.legaspi681\\onedrive - bow valley college\\documents\\github\\final_project-qb-10\\my project\\assets\\scritps\\controls\\playercam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\controls\\playercam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\c.legaspi681\\OneDrive - Bow Valley College\\Documents\\GitHub\\Final_Project-QB-10\\My project\\assets\\scritps\\controls\\thirdpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\controls\\thirdpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\c.legaspi681\\Downloads\\PlayerMovementTutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\c.legaspi681\\onedrive - bow valley college\\documents\\github\\final_project-qb-10\\my project\\assets\\scritps\\controls\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scritps\\controls\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\c.legaspi681\\Downloads\\ThirdPersonCam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,92 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\c.legaspi681\\OneDrive - Bow Valley College\\Documents\\GitHub\\Final_Project-QB-10\\My project\\Assets\\Scritps\\Controls\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scritps\\Controls\\PlayerController.cs",
               "ToolTip": "C:\\Users\\c.legaspi681\\OneDrive - Bow Valley College\\Documents\\GitHub\\Final_Project-QB-10\\My project\\Assets\\Scritps\\Controls\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scritps\\Controls\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T23:58:32.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerCam.cs",
-              "DocumentMoniker": "C:\\Users\\c.legaspi681\\OneDrive - Bow Valley College\\Documents\\GitHub\\Final_Project-QB-10\\My project\\Assets\\Scritps\\Controls\\PlayerCam.cs",
-              "RelativeDocumentMoniker": "Assets\\Scritps\\Controls\\PlayerCam.cs",
-              "ToolTip": "C:\\Users\\c.legaspi681\\OneDrive - Bow Valley College\\Documents\\GitHub\\Final_Project-QB-10\\My project\\Assets\\Scritps\\Controls\\PlayerCam.cs",
-              "RelativeToolTip": "Assets\\Scritps\\Controls\\PlayerCam.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T23:54:15.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThirdPersonMovement.cs",
-              "DocumentMoniker": "C:\\Users\\c.legaspi681\\OneDrive - Bow Valley College\\Documents\\GitHub\\Final_Project-QB-10\\My project\\Assets\\Scritps\\Controls\\ThirdPersonMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scritps\\Controls\\ThirdPersonMovement.cs",
-              "ToolTip": "C:\\Users\\c.legaspi681\\OneDrive - Bow Valley College\\Documents\\GitHub\\Final_Project-QB-10\\My project\\Assets\\Scritps\\Controls\\ThirdPersonMovement.cs",
-              "RelativeToolTip": "Assets\\Scritps\\Controls\\ThirdPersonMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T23:08:10.296Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "83f1cc3f-ede8-400e-be1c-2cb9354b8aaf",
-        "Display": 0,
-        "X": 666,
-        "Y": 62,
-        "Width": 1578,
-        "Height": 768,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ThirdPersonCam.cs",
-              "DocumentMoniker": "C:\\Users\\c.legaspi681\\Downloads\\ThirdPersonCam.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\ThirdPersonCam.cs",
-              "ToolTip": "C:\\Users\\c.legaspi681\\Downloads\\ThirdPersonCam.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\ThirdPersonCam.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAE0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T00:24:17.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMovementTutorial.cs",
-              "DocumentMoniker": "C:\\Users\\c.legaspi681\\Downloads\\PlayerMovementTutorial.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\PlayerMovementTutorial.cs",
-              "ToolTip": "C:\\Users\\c.legaspi681\\Downloads\\PlayerMovementTutorial.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\PlayerMovementTutorial.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBwAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T23:59:08.029Z",
+              "WhenOpened": "2024-05-15T15:50:32.413Z",
               "EditorCaption": ""
             }
           ]
