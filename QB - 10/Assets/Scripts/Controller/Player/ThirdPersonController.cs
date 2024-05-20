@@ -10,22 +10,19 @@ public class ThirdPersonController : MonoBehaviour
 
     public float baseSpeed;
     public float sprintSpeed;
-    private float currentSpeed = 6;
+    private float currentSpeed;
+
+    public float gravity = -9.81f;
+
+    Vector3 velocity;
 
     public float turnSpeedTime = 0.1f;
     float turnSmoothVelocity;
-
-    public Rigidbody rb;
-
-    public LayerMask ground;
-    bool isGrounded;
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        rb = GetComponent<Rigidbody>();
-
     }
 
     // Update is called once per frame
@@ -34,6 +31,15 @@ public class ThirdPersonController : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            currentSpeed = baseSpeed + sprintSpeed;
+        }
+        else
+        {
+            currentSpeed = baseSpeed;
+        }
 
         if(direction.magnitude >= 0.1f)
         {
@@ -44,5 +50,9 @@ public class ThirdPersonController : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir * currentSpeed * Time.deltaTime);
         }
+
+        velocity.y += gravity * Time.deltaTime;
+
+        controller.Move(velocity * Time.deltaTime);
     }
 }
