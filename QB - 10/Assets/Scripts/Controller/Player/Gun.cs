@@ -57,9 +57,16 @@ public class Gun : MonoBehaviour
             Debug.Log(hit.transform.name);
 
             Target target = hit.transform.GetComponent<Target>();
+            Enemy enemy = hit.transform.GetComponent<Enemy>();
+
             if (target != null)
             {
                 target.RecieveDamage(gunDamage);
+            }
+
+            if(enemy != null)
+            {
+                enemy.TakeDamage(gunDamage);
             }
 
             if(hit.rigidbody != null)

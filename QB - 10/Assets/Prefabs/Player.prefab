@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7357787168267629543}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,8 @@ GameObject:
   - component: {fileID: 7493729864932358990}
   - component: {fileID: 1823354851896732051}
   - component: {fileID: 6428493858019099769}
-  m_Layer: 0
+  - component: {fileID: 7644963905225971955}
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -110,6 +111,20 @@ MonoBehaviour:
   sprintSpeed: 12
   gravity: -9.81
   turnSpeedTime: 0.1
+--- !u!114 &7644963905225971955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3160413848147896704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df423f58b7442ce40921f3f1d5285354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  playerHealth: 0
 --- !u!1 &5180406936079019895
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,7 +137,7 @@ GameObject:
   - component: {fileID: 8964277610755654674}
   - component: {fileID: 931877648667948566}
   - component: {fileID: 9100265517559516170}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +245,7 @@ GameObject:
   - component: {fileID: 2409347368385912762}
   - component: {fileID: 7846536411321210540}
   - component: {fileID: 5012039990546814741}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
