@@ -102,8 +102,8 @@ public class Enemy : MonoBehaviour
         {
             transform.LookAt(player.position);
             alreadyAttacked = true;
-            //animator.SetBool("Attacl", true);
-            Invoke(nameof(ResetAttack),timeBetweenAttacks);
+            //animator.SetBool("Attack", true);
+            Invoke(nameof(ResetAttack), timeBetweenAttacks);
 
             RaycastHit hit;
             if (Physics.Raycast(transform.position, transform.forward, out hit, attackRange))
@@ -118,13 +118,14 @@ public class Enemy : MonoBehaviour
                 }
                 */
 
-                PlayerHealth playerHealh = hit.transform.GetComponent<PlayerHealth>();
+                Debug.Log("I've found you!" + hit.transform.gameObject.name);
 
+                PlayerHealth playerHealh = hit.transform.GetComponent<PlayerHealth>();
                 if (playerHealh != null)
                 {
-                    playerHealh.TakeDamage(damage);
+                    playerHealh.takeDamage(damage);
 
-                    Debug.Log("I've the player!");
+                    Debug.Log("I've hit the player!");
                 }
             }
         }
@@ -173,5 +174,6 @@ public class Enemy : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, attackRange);
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);
+        Gizmos.DrawRay(transform.position, Vector3.forward);
     }
 }

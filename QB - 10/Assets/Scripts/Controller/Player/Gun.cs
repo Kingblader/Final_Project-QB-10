@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+//Thanks to Brackeys for the code
 public class Gun : MonoBehaviour
 {
     public float gunDamage = 15f;
@@ -84,10 +85,10 @@ public class Gun : MonoBehaviour
         isReloading = true;
         Debug.Log("Reloading...");
 
-        animator.SetBool("Reload", true);
+        animator.SetBool("isReload", true);
 
         yield return new WaitForSeconds(reloadTime - 0.25f);
-        animator.SetBool("Reload", false);
+        animator.SetBool("isReload", false);
         yield return new WaitForSeconds(0.25f);
 
         currentAmmo = maxAmmo;

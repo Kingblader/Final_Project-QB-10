@@ -5,10 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth;
-    public float playerHealth;
-
-    private bool takeDamage;
+    public int maxHealth = 100;
+    public int playerHealth;
+    public int healAmount;
 
     // Start is called before the first frame update
     void Start()
@@ -16,34 +15,31 @@ public class PlayerHealth : MonoBehaviour
         playerHealth = maxHealth;
     }
 
-    public void TakeDamage(float damage)
+    private void Update()
     {
-        playerHealth -= damage;
-        //hitEffect.Play();
-        StartCoroutine(TakeDamageCoroutine());
-
-        if (playerHealth <= 0)
+        if(Input.GetKeyDown(KeyCode.F))
         {
-            Invoke(nameof(DestroyEnemy), 0.5f);
+            healFromDamage();
+            Debug.Log("I'm Healing!");
         }
     }
 
-    private IEnumerator TakeDamageCoroutine()
+    public void takeDamage(int damage)
     {
-        takeDamage = true;
-        yield return new WaitForSeconds(2f);
-        takeDamage = false;
+        playerHealth = playerHealth - damage;
+        if(playerHealth <= 0)
+        {
+            GameObject.Destroy(gameObject);
+        }
     }
 
-    private void DestroyEnemy()
+    public void healFromDamage()
     {
-        StartCoroutine(DestroyEnemyCoroutine());
-    }
+        playerHealth = playerHealth + healAmount;
 
-    private IEnumerator DestroyEnemyCoroutine()
-    {
-        //animator.SetBool("Dead", true);
-        yield return new WaitForSeconds(1.8f);
-        Destroy(gameObject);
+        if (playerHealth > maxHealth)
+        {
+            playerHealth = maxHealth;
+        }
     }
 }
