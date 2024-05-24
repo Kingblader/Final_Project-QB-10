@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Assertions;
 
 //Thanks for the code himanshuskyrockets
 public class Enemy : MonoBehaviour
@@ -25,6 +26,7 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
+        Assert.IsTrue(this.enabled);
         //animator = GetComponent<Animator>();
         player = GameObject.Find("Player").transform;
         navAgent = GetComponent<NavMeshAgent>();
