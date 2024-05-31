@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Thanks to Brackeys for the Code
 public class ThirdPersonController : MonoBehaviour
 {
     [Header("Reference")]
