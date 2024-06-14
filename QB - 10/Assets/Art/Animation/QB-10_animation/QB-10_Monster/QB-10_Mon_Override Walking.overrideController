@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: QB-10_Mon_Override Walking
+  m_Controller: {fileID: 9100000, guid: 1eb80d17f4c49df4bb8be5ba74a06c3a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -9069761840371977854, guid: 3f78dcaf53936b2418a6e10e6e721948, type: 3}
+    m_OverrideClip: {fileID: 3823107994971756580, guid: 3f78dcaf53936b2418a6e10e6e721948, type: 3}

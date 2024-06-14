@@ -55,5 +55,10 @@ public class ThirdPersonController : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 }
