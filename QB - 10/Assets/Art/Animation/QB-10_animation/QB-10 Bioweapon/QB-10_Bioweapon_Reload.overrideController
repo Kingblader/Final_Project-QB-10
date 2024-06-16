@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: QB-10_Bioweapon_Reload
+  m_Controller: {fileID: 9100000, guid: fc21b5911799d924b9bbfcc21fa28c9a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -4972983466954864170, guid: 3bea39dffc3e9224792c8225cb753305, type: 3}
+    m_OverrideClip: {fileID: 4416165154220703694, guid: 3bea39dffc3e9224792c8225cb753305, type: 3}
