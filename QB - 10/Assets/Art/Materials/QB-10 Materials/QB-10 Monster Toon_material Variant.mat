@@ -55,11 +55,13 @@ Material:
     - _AutoRenderQueue: 1
     - _ClippingMode: 2
     - _Clipping_Level: 0.492
+    - _CullMode: 0
     - _Inverse_Clipping: 0
     - _Is_NormalMapToBase: 0
     - _Is_NormalMapToHighColor: 0
     - _Is_NormalMapToRimLight: 0
     - _MatCap: 1
+    - _Use_BaseAs1st: 0
     m_Colors:
     - _MatCapColor: {r: 0.19339623, g: 0.7735849, b: 0.60625035, a: 1}
   m_BuildTextureStacks: []
