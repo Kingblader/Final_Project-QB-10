@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     public float sightRange;
     public float attackRange;
     public int damage;
-    //public Animator animator;
+    public Animator animator;
     public ParticleSystem hitEffect;
 
     private Vector3 walkPoint;
@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour
 
     private void Awake()
     {
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         player = GameObject.Find("Player").transform;
         navAgent = GetComponent<NavMeshAgent>();
     }
@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour
         }
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
-        //animator.SetFloat("Velcity", 0.2f);
+        animator.SetFloat("Velocity", 0.2f);
 
         if(distanceToWalkPoint.magnitude < 1f)
         {
@@ -90,19 +90,19 @@ public class Enemy : MonoBehaviour
     private void ChasePlayer()
     {
         navAgent.SetDestination(player.position);
-        //animator.SetFloat(Velocity, 0.6f);
+        animator.SetFloat("Velocity", 0.6f);
         navAgent.isStopped = false; // Add this line
     }
 
     private void AttackPlayer()
     {
-        navAgent. SetDestination(transform.position);
+        navAgent.SetDestination(transform.position);
 
         if(!alreadyAttacked)
         {
             transform.LookAt(player.position);
             alreadyAttacked = true;
-            //animator.SetBool("Attack", true);
+            animator.SetBool("Attack", true);
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
 
             RaycastHit hit;
@@ -120,10 +120,10 @@ public class Enemy : MonoBehaviour
 
                 Debug.Log("I've found you!" + hit.transform.gameObject.name);
 
-                PlayerHealth playerHealh = hit.transform.GetComponent<PlayerHealth>();
-                if (playerHealh != null)
+                PlayerHealth playerHealth = hit.transform.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
                 {
-                    playerHealh.takeDamage(damage);
+                    playerHealth.takeDamage(damage);
 
                     Debug.Log("I've hit the player!");
                 }
@@ -134,7 +134,7 @@ public class Enemy : MonoBehaviour
     private void ResetAttack()
     {
         alreadyAttacked = false;
-        //animator.SetBool("Attack", false);
+        animator.SetBool("Attack", false);
     }
 
     public void TakeDamage(float damage)
@@ -163,7 +163,7 @@ public class Enemy : MonoBehaviour
 
     private IEnumerator DestroyEnemyCoroutine()
     {
-        //animator.SetBool("Dead", true);
+        animator.SetBool("Dead", true);
         yield return new WaitForSeconds(1.8f);
         Destroy(gameObject);
     }

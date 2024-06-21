@@ -42,8 +42,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: f0e5d1ecb9c1a724b8a9111891efde1b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Outline_Sampler:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Is_BlendBaseColor: 1
+    - _Is_OutlineTex: 0
+    - _OUTLINE: 1
     - _RimLight_FeatherOff: 0
     - _RimLight_InsideMask: 0.436
     - _RimLight_Power: 0.212

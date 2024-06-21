@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle - Bioweapon
-      takeName: Idle - Bioweapon
+      name: GunState - Bioweapon (1)
+      takeName: GunState - Bioweapon
       internalID: -4972983466954864170
       firstFrame: 0
-      lastFrame: 35
+      lastFrame: 0
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -45,7 +45,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -72,9 +72,9 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0

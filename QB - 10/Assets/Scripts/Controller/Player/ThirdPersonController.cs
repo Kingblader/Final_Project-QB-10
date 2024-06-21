@@ -20,6 +20,8 @@ public class ThirdPersonController : MonoBehaviour
     public float turnSpeedTime = 0.1f;
     float turnSmoothVelocity;
 
+    public Animator animator;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -52,6 +54,15 @@ public class ThirdPersonController : MonoBehaviour
             controller.Move(moveDir * currentSpeed * Time.deltaTime);
         }
 
+        if(horizontal != 0f || vertical != 0)
+        {
+            animator.SetBool("IsMoving", true);
+        }
+        else
+        {
+            animator.SetBool("IsMoving", false);
+        }
+
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
@@ -60,5 +71,26 @@ public class ThirdPersonController : MonoBehaviour
         {
             Application.Quit();
         }
+
+        /*if (Input.GetKey("Q"))
+        {
+            if (Cube)
+            {
+                Play State Change animation
+                State = Robot
+            }
+            else if (State == Robot
+            {
+                Play State Change animation to Cube
+                State = Cube
+            }
+        }*/
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            animator.SetTrigger("Active");
+        }
     }
+
+    
 }
