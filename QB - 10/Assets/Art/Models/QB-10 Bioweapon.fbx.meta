@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: GunState - Bioweapon (1)
-      takeName: GunState - Bioweapon
+      name: Idle - Bioweapon
+      takeName: Idle - Bioweapon
       internalID: -4972983466954864170
       firstFrame: 0
-      lastFrame: 0
+      lastFrame: 35
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
