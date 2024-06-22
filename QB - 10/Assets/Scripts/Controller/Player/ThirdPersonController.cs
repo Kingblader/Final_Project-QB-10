@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Thanks to Brackeys for the Code
+// Thanks to Brackeys for the Code
 public class ThirdPersonController : MonoBehaviour
 {
     [Header("Reference")]
@@ -26,10 +26,20 @@ public class ThirdPersonController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        currentForm = Form.Form1; // Initial form
+        EnableMovement(true); // Enable movement initially
     }
 
-    // Update is called once per frame
     void Update()
+    {
+        if (currentForm == Form.Form1)
+        {
+            HandleMovement();
+        }
+        HandleSwitchForm();
+    }
+
+    private void HandleMovement()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
@@ -44,7 +54,7 @@ public class ThirdPersonController : MonoBehaviour
             currentSpeed = baseSpeed;
         }
 
-        if(direction.magnitude >= 0.1f)
+        if (direction.magnitude >= 0.1f)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSpeedTime);
@@ -54,7 +64,7 @@ public class ThirdPersonController : MonoBehaviour
             controller.Move(moveDir * currentSpeed * Time.deltaTime);
         }
 
-        if(horizontal != 0f || vertical != 0)
+        if (horizontal != 0f || vertical != 0f)
         {
             animator.SetBool("IsMoving", true);
         }
@@ -64,7 +74,6 @@ public class ThirdPersonController : MonoBehaviour
         }
 
         velocity.y += gravity * Time.deltaTime;
-
         controller.Move(velocity * Time.deltaTime);
 
         if (Input.GetKey("escape"))
@@ -72,25 +81,47 @@ public class ThirdPersonController : MonoBehaviour
             Application.Quit();
         }
 
-        /*if (Input.GetKey("Q"))
-        {
-            if (Cube)
-            {
-                Play State Change animation
-                State = Robot
-            }
-            else if (State == Robot
-            {
-                Play State Change animation to Cube
-                State = Cube
-            }
-        }*/
-
         if (Input.GetMouseButtonDown(0))
         {
             animator.SetTrigger("Active");
         }
     }
 
-    
+    private void HandleSwitchForm()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SwitchForm();
+        }
+    }
+
+    private void SwitchForm()
+    {
+        if (currentForm == Form.Form1)
+        {
+            currentForm = Form.Form2;
+            animator.SetTrigger("ToForm2"); // Trigger animation to Form2
+            EnableMovement(false); // Disable movement
+        }
+        else
+        {
+            currentForm = Form.Form1;
+            animator.SetTrigger("ToForm1"); // Trigger animation to Form1
+            EnableMovement(true); // Enable movement
+        }
+        Debug.Log("Switched to form: " + currentForm);
+    }
+
+    private void EnableMovement(bool isEnabled)
+    {
+        controller.enabled = isEnabled; // Enable/Disable CharacterController
+    }
+
+    private enum Form
+    {
+        Form1,
+        Form2
+    }
+
+    private Form currentForm;
 }
