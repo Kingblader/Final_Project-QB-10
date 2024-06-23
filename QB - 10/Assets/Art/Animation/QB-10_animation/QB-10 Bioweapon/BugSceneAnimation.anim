@@ -535,8 +535,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.4
-    functionName: 
+  - time: 0.7
+    functionName: PlayParticleEffect
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -556,8 +556,22 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 4.5
-    functionName: 
+  - time: 3.8833334
+    functionName: ActivateParticleSystem
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 4.983333
+    functionName: ActivateParticleSystem
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 6.15
+    functionName: ActivateParticleSystem
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

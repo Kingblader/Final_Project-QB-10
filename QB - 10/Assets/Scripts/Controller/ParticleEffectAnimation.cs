@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class ParticleEffectAnimation : MonoBehaviour
 {
-    private Animator animator;
-    private ParticleSystem particleSystem;
+    public ParticleSystem particleSystem;
 
-    void Start()
+    public void ActivateParticleSystem()
     {
-        animator = GetComponent<Animator>();
-        particleSystem = GetComponent<ParticleSystem>();
-    }
-
-    // Method to trigger the particle effect
-    public void PlayParticleEffect()
-    {
-        // Trigger the "PlayParticles" parameter in the Animator
-        animator.SetTrigger("PlayParticles");
+        if (particleSystem != null)
+        {
+            particleSystem.Play();
+        }
     }
 }
