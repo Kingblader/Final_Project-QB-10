@@ -15,7 +15,7 @@ C:/Users/c.legaspi681/OneDrive - Bow Valley College/Documents/GitHub/Final_Proje
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-59335
+54802
 Successfully changed project path to: C:/Users/c.legaspi681/OneDrive - Bow Valley College/Documents/GitHub/Final_Project-QB-10/QB - 10
 C:/Users/c.legaspi681/OneDrive - Bow Valley College/Documents/GitHub/Final_Project-QB-10/QB - 10
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/c.legaspi681/OneDrive - Bow Valley College/Documents/GitHub/Final_Proje
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3580] Host "[IP] 172.28.0.35 [Port] 0 [Flags] 2 [Guid] 2062578461 [EditorId] 2062578461 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL003) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7524] Host "[IP] 172.28.0.76 [Port] 0 [Flags] 2 [Guid] 2699527610 [EditorId] 2699527610 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL053) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3580] Host "[IP] 172.28.0.35 [Port] 0 [Flags] 2 [Guid] 2062578461 [EditorId] 2062578461 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL003) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7524] Host "[IP] 172.28.0.76 [Port] 0 [Flags] 2 [Guid] 2699527610 [EditorId] 2699527610 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL053) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 14.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 14.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.044634 seconds.
-- Loaded All Assemblies, in  0.674 seconds
+Registered in 0.049095 seconds.
+- Loaded All Assemblies, in  0.721 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.344 seconds
-Domain Reload Profiling: 995ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (267ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (50ms)
+	RebuildCommonClasses (49ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (172ms)
-	LoadAllAssembliesAndSetupDomain (176ms)
-		LoadAssemblies (221ms)
+	initialDomainReloadingComplete (182ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (245ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (153ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (345ms)
+	FinalizeReload (362ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
+		SetupLoadedEditorAssemblies (292ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (172ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,51 +115,51 @@ Domain Reload Profiling: 995ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.995 seconds
-Refreshing native plugins compatible for Editor in 5.92 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.075 seconds
+Refreshing native plugins compatible for Editor in 6.60 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.807 seconds
-Domain Reload Profiling: 1782ms
-	BeginReloadAssembly (292ms)
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1850ms
+	BeginReloadAssembly (291ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (46ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (59ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (530ms)
-		LoadAssemblies (543ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (595ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (123ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (808ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (130ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (797ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (593ms)
+		SetupLoadedEditorAssemblies (592ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (251ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (64ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (47ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 8.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 10.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4255 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (418.3 KB). Loaded Objects now: 4750.
-Memory consumption went from 164.3 MB to 163.9 MB.
-Total: 4.352300 ms (FindLiveObjects: 0.454800 ms CreateObjectMapping: 0.157800 ms MarkObjects: 3.468400 ms  DeleteObjects: 0.270400 ms)
+Unloading 78 unused Assets / (418.5 KB). Loaded Objects now: 4750.
+Memory consumption went from 164.4 MB to 164.0 MB.
+Total: 5.091400 ms (FindLiveObjects: 0.486700 ms CreateObjectMapping: 0.156900 ms MarkObjects: 4.148600 ms  DeleteObjects: 0.297400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -176,65 +176,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 62996.138732 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/QB-10 Toon_material Variant 1.mat
-  artifactKey: Guid(68089d9578692cf468919b10f9fd7421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/QB-10 Toon_material Variant 1.mat using Guid(68089d9578692cf468919b10f9fd7421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5b1f21960a3dfe8c776e53bd50fb80') in 0.175549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.298442 seconds.
-  path: Assets/Scenes/TEST.unity
-  artifactKey: Guid(dd2129b5eb830014e9665c4732b80f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TEST.unity using Guid(dd2129b5eb830014e9665c4732b80f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95de0b5cb6157b0965161e14552cc148') in 0.000835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 247.065509 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/QB-10 AmmoPack Toon_material Variant.mat
-  artifactKey: Guid(7e21ddc9b7de222498b9f6c9fe2e3434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/QB-10 AmmoPack Toon_material Variant.mat using Guid(7e21ddc9b7de222498b9f6c9fe2e3434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5418600d51aed235e1154a803716846') in 0.020306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.010128 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/QB-10 Bugs ammo Toon_material Variant Variant.mat
-  artifactKey: Guid(c8d87907f07baea47b3904e195e96d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/QB-10 Bugs ammo Toon_material Variant Variant.mat using Guid(c8d87907f07baea47b3904e195e96d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ec31b6859d038c07d78dc38160dc9c') in 0.020313 seconds
+  Time since last request: 16378.630717 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/QB-10 HealthKit Glowparts Toon_material Variant Variant.mat
+  artifactKey: Guid(3f9389ef53019904194a46ff1b45d8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/QB-10 HealthKit Glowparts Toon_material Variant Variant.mat using Guid(3f9389ef53019904194a46ff1b45d8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac52803ae0181195c0e37519cefa3a2') in 0.153937 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012846 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/QB-10 Monster Toon_material Variant 1.mat
-  artifactKey: Guid(56c86388a5cd6a54b99e4478819fbfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/QB-10 Monster Toon_material Variant 1.mat using Guid(56c86388a5cd6a54b99e4478819fbfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8570dc852dbcb0befd5da32163ead8') in 0.089760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/QB-10 Toon_material Variant.mat
-  artifactKey: Guid(f0bd2576e7e2a8b4da53185e0f4c3c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/QB-10 Toon_material Variant.mat using Guid(f0bd2576e7e2a8b4da53185e0f4c3c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd06857773ec6469e338b28c8cee44f5') in 0.023588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/QB-10 Pylon Toon_material Variant.mat
-  artifactKey: Guid(e27d635d74040f94290675476ffcdb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/QB-10 Pylon Toon_material Variant.mat using Guid(e27d635d74040f94290675476ffcdb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebca8e2f09dc1ba8bdbf43f1363b463') in 0.018955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6.345448 seconds.
-  path: Assets/Scenes/AnimatingSpace.unity
-  artifactKey: Guid(3c23172bf01e4ae41b25a781825f6690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AnimatingSpace.unity using Guid(3c23172bf01e4ae41b25a781825f6690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd08fa4db23c75625327fdf62c79fe93') in 0.000732 seconds
+  Time since last request: 78.709245 seconds.
+  path: Assets/Scenes/MonsterAnimationPlace.unity
+  artifactKey: Guid(2a336a61b465fdb4f94a6d120cf1465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MonsterAnimationPlace.unity using Guid(2a336a61b465fdb4f94a6d120cf1465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80338bbcf7ca506d9f2cf69f309123d') in 0.000776 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 210.840540 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/Skybox Variant Monster.mat
+  artifactKey: Guid(57d4cc25adcb23845a8e972ccfeb93ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/Skybox Variant Monster.mat using Guid(57d4cc25adcb23845a8e972ccfeb93ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408fa07727e4169ed60a9c92f4824f2f') in 0.027479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 352.843592 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/QB-10 AmmoPack Toon_material Variant.mat
+  artifactKey: Guid(7e21ddc9b7de222498b9f6c9fe2e3434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/QB-10 AmmoPack Toon_material Variant.mat using Guid(7e21ddc9b7de222498b9f6c9fe2e3434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36081f400e0ca6b7e81bccff9150bce6') in 0.021500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010874 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/QB-10 Bugs ammo Toon_material Variant Variant.mat
+  artifactKey: Guid(c8d87907f07baea47b3904e195e96d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/QB-10 Bugs ammo Toon_material Variant Variant.mat using Guid(c8d87907f07baea47b3904e195e96d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c505f88b8bbae4815fe0cf315a4fb5d') in 0.023780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.012253 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/QB-10 Monster Toon_material Variant.mat
+  artifactKey: Guid(3d25bfdd4d618eb469a24dc0665d5c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/QB-10 Monster Toon_material Variant.mat using Guid(3d25bfdd4d618eb469a24dc0665d5c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1a95f15a045276dbbc37895afd963e') in 0.133861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/Toon_material.mat
+  artifactKey: Guid(0b2e821d128a83144a1e27382801c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/Toon_material.mat using Guid(0b2e821d128a83144a1e27382801c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973f22d6c9912143dc1213e70319c319') in 0.019348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/QB-10 HealthKit Toon_material Variant.mat
+  artifactKey: Guid(6c1e021196534bb489a2c688a1b89798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/QB-10 HealthKit Toon_material Variant.mat using Guid(6c1e021196534bb489a2c688a1b89798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1752d82e1b67d517c49e1633bd0d59') in 0.018944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/QB-10 Pylon Toon_material Variant.mat
+  artifactKey: Guid(e27d635d74040f94290675476ffcdb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/QB-10 Pylon Toon_material Variant.mat using Guid(e27d635d74040f94290675476ffcdb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d1949175574ce424fccd93f716169e') in 0.021760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

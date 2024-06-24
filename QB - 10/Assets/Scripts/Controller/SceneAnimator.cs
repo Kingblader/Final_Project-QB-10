@@ -42,7 +42,7 @@ public class SceneAnimator : MonoBehaviour
 
     public void Attack()
     {
-        animator.SetTrigger("Attak");
+        animator.SetTrigger("Attack");
     }
 
     public void Reload()
@@ -63,5 +63,10 @@ public class SceneAnimator : MonoBehaviour
     public void Transformed()
     {
         animator.SetTrigger("Transformed");
+    }
+
+    public void Death()
+    {
+        animator.SetTrigger("Die");
     }
 }
