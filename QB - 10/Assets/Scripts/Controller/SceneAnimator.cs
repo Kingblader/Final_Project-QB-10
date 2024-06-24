@@ -25,9 +25,24 @@ public class SceneAnimator : MonoBehaviour
         animator.SetTrigger("Transform");
     }
 
+    public void DrawWeapon()
+    {
+        animator.SetTrigger("DrawWeapon");
+    }
+
+    public void HolsterWeapon()
+    {
+        animator.SetTrigger("HolsterWeapon");
+    }
+
     public void Shooting()
     {
         animator.SetTrigger("Shooting");
+    }
+
+    public void Attack()
+    {
+        animator.SetTrigger("Attak");
     }
 
     public void Reload()
@@ -43,5 +58,10 @@ public class SceneAnimator : MonoBehaviour
     public void Idle()
     {
         animator.SetTrigger("Idle");
+    }
+
+    public void Transformed()
+    {
+        animator.SetTrigger("Transformed");
     }
 }

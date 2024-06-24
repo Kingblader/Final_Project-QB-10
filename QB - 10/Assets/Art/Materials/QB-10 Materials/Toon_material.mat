@@ -220,10 +220,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _1st2nd_Shades_Feather: 0.548
+    - _1st2nd_Shades_Feather: 0.16
     - _1st_ShadeColor_Feather: 0.463
     - _1st_ShadeColor_Step: 0.416
-    - _2nd_ShadeColor_Feather: 0.548
+    - _2nd_ShadeColor_Feather: 0.16
     - _2nd_ShadeColor_Step: 0.295
     - _AORemapMax: 1
     - _AORemapMin: 0
@@ -481,8 +481,8 @@ Material:
     - _utsVersionY: 10
     - _utsVersionZ: 0
     m_Colors:
-    - _1st_ShadeColor: {r: 0.5235849, g: 1, b: 0.7802054, a: 1}
-    - _2nd_ShadeColor: {r: 1, g: 0.7695466, b: 0.4009434, a: 1}
+    - _1st_ShadeColor: {r: 0.6839622, g: 1, b: 0.8537346, a: 1}
+    - _2nd_ShadeColor: {r: 0.61089355, g: 0.9056604, b: 0.8155765, a: 1}
     - _AngelRingMaskColor: {r: 0, g: 1, b: 0, a: 1}
     - _AngelRing_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Ap_RimLightColor: {r: 1, g: 1, b: 1, a: 1}
