@@ -67,6 +67,6 @@ public class SceneAnimator : MonoBehaviour
 
     public void Death()
     {
-        animator.SetTrigger("Die");
+        animator.SetTrigger("Death");
     }
 }

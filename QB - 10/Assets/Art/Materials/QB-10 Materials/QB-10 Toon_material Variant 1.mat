@@ -53,6 +53,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Clipping_Level: 0
+    - _Inverse_Clipping: 0
     - _IsBaseMapAlphaAsClippingMask: 1
     - _SPRDefaultUnlitColorMask: 0
     - _SRPDefaultUnlitColMode: 2
