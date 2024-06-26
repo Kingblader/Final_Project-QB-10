@@ -45,7 +45,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: QB-10-Recordings-Bioweapons
+    m_FileName: QB-10-Recordings-BioWeapon-2
   m_Version: 1
   encoderSettings:
     rid: 4659068952986517504
@@ -57,7 +57,7 @@ MonoBehaviour:
       m_OutputResolution:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
-        imageHeight: 0
+        imageHeight: 720
         maxSupportedHeight: 2160
         m_AspectRatio:
           m_CustomAspectX: 1
