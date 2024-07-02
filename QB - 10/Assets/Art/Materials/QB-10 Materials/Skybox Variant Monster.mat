@@ -10,7 +10,7 @@ Material:
   m_Name: Skybox Variant Monster
   m_Shader: {fileID: 108, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 2100000, guid: 20dd3445720a59b4594e63f5684ee5fb, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 16
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _MAPPING_LATITUDE_LONGITUDE_LAYOUT
@@ -24,9 +24,18 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a7fcb7ccd49c25b4ca86c43558e10a61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _Exposure: 1
+    - _ImageType: 1
+    - _Layout: 2
+    - _Mapping: 1
+    - _Rotation: 85
     m_Colors:
-    - _Tint: {r: 0.20625669, g: 0.4245283, b: 0.35130727, a: 0.5}
+    - _Tint: {r: 0.078987174, g: 0.6698113, b: 0.4764507, a: 0.5}
   m_BuildTextureStacks: []

@@ -62,5 +62,6 @@ Material:
     - _RimLight_FeatherOff: 0
     - _RimLight_InsideMask: 0.436
     - _RimLight_Power: 0.212
+    - _utsTechnique: 0
     m_Colors: []
   m_BuildTextureStacks: []
