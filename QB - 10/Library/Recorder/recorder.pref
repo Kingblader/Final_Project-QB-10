@@ -17,7 +17,7 @@ MonoBehaviour:
   m_FrameRateType: 7
   m_CustomFrameRateValue: 30
   m_StartFrame: 0
-  m_EndFrame: 570
+  m_EndFrame: 360
   m_StartTime: 0
   m_EndTime: 570
   m_CapFrameRate: 1
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 14
+  take: 23
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -45,7 +45,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: QB-10-Recordings-BioWeapon-2
+    m_FileName: QB-10-Recordings-RoadTrain
   m_Version: 1
   encoderSettings:
     rid: 4659068952986517504

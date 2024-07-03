@@ -1,0 +1,1037 @@
+; FBX 7.3.0 project file
+; Created by the Blockbench FBX Exporter
+; ----------------------------------------------------
+; 
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7300
+	EncryptionType: 0
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2024
+		Month: 7
+		Day: 3
+		Hour: 8
+		Minute: 41
+		Second: 54
+		Millisecond: 393
+	}
+	Creator: "Blockbench 4.10.3"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: ""
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "C:\Users\Blockbench\foobar.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "C:\Users\Blockbench\foobar.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "Blockbench"
+			P: "Original|ApplicationName", "KString", "", "", "Blockbench FBX Exporter"
+			P: "Original|ApplicationVersion", "KString", "", "", "4.10.3"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "01/01/1970 00:00:00.000"
+			P: "Original|FileName", "KString", "", "", "/foobar.fbx"
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "Blockbench"
+			P: "LastSaved|ApplicationName", "KString", "", "", "Blockbench FBX Exporter"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", "4.10.3"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "01/01/1970 00:00:00.000"
+			P: "Original|ApplicationNativeFile", "KString", "", "", ""
+		}
+	}
+}
+FileId: "iVFoobar"
+CreationTime: "2024-07-03 14:41:54:393"
+Creator: "Made with Blockbench"
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",0
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",24
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 151893149 {
+		Scene: "Scene"
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References: 
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 47
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "Model" {
+		Count: 5
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",5
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "Geometry" {
+		Count: 5
+		PropertyTemplate: "FbxMesh" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BBoxMin", "Vector3D", "Vector", "",0,0,0
+				P: "BBoxMax", "Vector3D", "Vector", "",0,0,0
+				P: "Primary Visibility", "bool", "", "",1
+				P: "Casts Shadows", "bool", "", "",1
+				P: "Receive Shadows", "bool", "", "",1
+			}
+		}
+	}
+	ObjectType: "Material" {
+		Count: 12
+		PropertyTemplate: "FbxSurfaceLambert" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Lambert"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+			}
+		}
+	}
+	ObjectType: "Texture" {
+		Count: 12
+		PropertyTemplate: "FbxFileTexture" {
+			Properties70:  {
+				P: "TextureTypeUse", "enum", "", "",0
+				P: "Texture alpha", "Number", "", "A",1
+				P: "CurrentMappingType", "enum", "", "",0
+				P: "WrapModeU", "enum", "", "",0
+				P: "WrapModeV", "enum", "", "",0
+				P: "UVSwap", "bool", "", "",0
+				P: "PremultiplyAlpha", "bool", "", "",1
+				P: "Translation", "Vector", "", "A",0,0,0
+				P: "Rotation", "Vector", "", "A",0,0,0
+				P: "Scaling", "Vector", "", "A",1,1,1
+				P: "TextureRotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TextureScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "CurrentTextureBlendMode", "enum", "", "",1
+				P: "UVSet", "KString", "", "", "default"
+				P: "UseMaterial", "bool", "", "",0
+				P: "UseMipMap", "bool", "", "",0
+			}
+		}
+	}
+	ObjectType: "Video" {
+		Count: 12
+		PropertyTemplate: "FbxVideo" {
+			Properties70:  {
+				P: "ImageSequence", "bool", "", "",0
+				P: "ImageSequenceOffset", "int", "Integer", "",0
+				P: "FrameRate", "double", "Number", "",0
+				P: "LastFrame", "int", "Integer", "",0
+				P: "Width", "int", "Integer", "",0
+				P: "Height", "int", "Integer", "",0
+				P: "Path", "KString", "XRefUrl", "", ""
+				P: "StartFrame", "int", "Integer", "",0
+				P: "StopFrame", "int", "Integer", "",0
+				P: "PlaySpeed", "double", "Number", "",0
+				P: "Offset", "KTime", "Time", "",0
+				P: "InterlaceMode", "enum", "", "",0
+				P: "FreeRunning", "bool", "", "",0
+				P: "Loop", "bool", "", "",0
+				P: "AccessMode", "enum", "", "",0
+			}
+		}
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	Geometry: 24673883, "Geometry::plane_2", "Mesh" {
+		Vertices: *12 {
+			a: 75,0,75,75,0,-75,-75,0,75,-75,0,-75
+		}
+		PolygonVertexIndex: *4 {
+			a: 0,1,3,-3
+		}
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: *3 {
+				a: 0,1,0
+			}
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			UV: *8 {
+				a: 0.9999999999999997,5.551115123125783e-16,0.9999999999999997,1,0,1,0,5.551115123125783e-16
+			}
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			}
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 45604593, "Geometry::cuboid_1", "Mesh" {
+		Vertices: *24 {
+			a: 150,62.5,150,150,62.5,-150,150,-12.5,150,150,-12.5,-150,-150,62.5,150,-150,62.5,-150,-150,-12.5,150,-150,-12.5,-150
+		}
+		PolygonVertexIndex: *24 {
+			a: 1,0,2,-4,6,4,5,-8,4,0,1,-6,3,2,6,-8,2,0,4,-7,5,1,3,-8
+		}
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: *18 {
+				a: 1,0,0,-1,0,0,0,1,0,0,-1,0,0,0,1,0,0,-1
+			}
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			UV: *48 {
+				a: 0.189453125,0.99951171875,0.095703125,0.99951171875,0.095703125,0.97607421875,0.189453125,0.97607421875,0.189453125,0.951171875,0.189453125,0.974609375,0.095703125,0.974609375,0.095703125,0.951171875,0,0.90625,0.09375,0.90625,0.09375,1,0,1,0.09375,0.810546875,0.09375,0.904296875,0,0.904296875,0,0.810546875,0.189453125,0.900390625,0.189453125,0.923828125,0.095703125,0.923828125,0.095703125,0.900390625,0.189453125,0.94921875,0.095703125,0.94921875,0.095703125,0.92578125,0.189453125,0.92578125
+			}
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			}
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 73068726, "Geometry::cuboid", "Mesh" {
+		Vertices: *24 {
+			a: 150,200,150,150,200,-150,150,-100,150,150,-100,-150,-150,200,150,-150,200,-150,-150,-100,150,-150,-100,-150
+		}
+		PolygonVertexIndex: *24 {
+			a: 1,0,2,-4,6,4,5,-8,4,0,1,-6,3,2,6,-8,2,0,4,-7,5,1,3,-8
+		}
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: *18 {
+				a: 1,0,0,-1,0,0,0,1,0,0,-1,0,0,0,1,0,0,-1
+			}
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			UV: *48 {
+				a: 0.1875,1,0,1,0,0.8125,0.1875,0.8125,0.1875,0.62109375,0.1875,0.80859375,0,0.80859375,0,0.62109375,0.19140625,0.8125,0.37890625,0.8125,0.37890625,1,0.19140625,1,0.37890625,0.62109375,0.37890625,0.80859375,0.19140625,0.80859375,0.19140625,0.62109375,0.1875,0.4296875,0.1875,0.6171875,0,0.6171875,0,0.4296875,0.5703125,1,0.3828125,1,0.3828125,0.8125,0.5703125,0.8125
+			}
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			}
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 79047130, "Geometry::plane_1", "Mesh" {
+		Vertices: *12 {
+			a: 112.5,0,112.5,112.5,0,-112.5,-112.5,0,112.5,-112.5,0,-112.5
+		}
+		PolygonVertexIndex: *4 {
+			a: 0,1,3,-3
+		}
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: *3 {
+				a: 0,1,0
+			}
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			UV: *8 {
+				a: 1,0,1,1,0,1,0,0
+			}
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			}
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Geometry: 90293817, "Geometry::plane", "Mesh" {
+		Vertices: *12 {
+			a: 150,0,150,150,0,-150,-150,0,150,-150,0,-150
+		}
+		PolygonVertexIndex: *4 {
+			a: 0,1,3,-3
+		}
+		GeometryVersion: 124
+		LayerElementNormal: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "Direct"
+			Normals: *3 {
+				a: 0,1,0
+			}
+		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "Direct"
+			UV: *8 {
+				a: 1,0,1,1,0,1,0,0
+			}
+		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *1 {
+				a: 0
+			}
+		}
+		Layer: 0 {
+			Version: 100
+			LayerElement:  {
+				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
+				TypedIndex: 0
+			}
+		}
+	}
+	Model: 39704748, "Model::plane", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "RotationOrder", "enum", "", "",5
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 67653248, "Model::plane_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "RotationOrder", "enum", "", "",5
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 20814873, "Model::cuboid", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,100,0
+			P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "RotationOrder", "enum", "", "",5
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 45027830, "Model::cuboid_1", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,-62.5,0
+			P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "RotationOrder", "enum", "", "",5
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 54101785, "Model::plane_2", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+			P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+			P: "RotationOrder", "enum", "", "",5
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Material: 76989213, "Material::Skybox.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 73543408, "Texture::Skybox.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Skybox.png"
+		Media: "Video::Skybox.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox.png"
+		RelativeFilename: "Skybox.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 19852118, "Video::Skybox.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox.png"
+		RelativeFilename: "Skybox.png"
+	}
+	Material: 46819199, "Material::Skybox_Padramic.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 99046833, "Texture::Skybox_Padramic.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Skybox_Padramic.png"
+		Media: "Video::Skybox_Padramic.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic.png"
+		RelativeFilename: "Skybox_Padramic.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 8700906, "Video::Skybox_Padramic.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic.png"
+		RelativeFilename: "Skybox_Padramic.png"
+	}
+	Material: 58768609, "Material::Skybox_Padramic_2.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 35950186, "Texture::Skybox_Padramic_2.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Skybox_Padramic_2.png"
+		Media: "Video::Skybox_Padramic_2.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic_2.png"
+		RelativeFilename: "Skybox_Padramic_2.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 52238250, "Video::Skybox_Padramic_2.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic_2.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic_2.png"
+		RelativeFilename: "Skybox_Padramic_2.png"
+	}
+	Material: 32664236, "Material::Skybox_Padramic_3.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 92676776, "Texture::Skybox_Padramic_3.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Skybox_Padramic_3.png"
+		Media: "Video::Skybox_Padramic_3.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic_3.png"
+		RelativeFilename: "Skybox_Padramic_3.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 14087367, "Video::Skybox_Padramic_3.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic_3.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Skybox_Padramic_3.png"
+		RelativeFilename: "Skybox_Padramic_3.png"
+	}
+	Material: 11956655, "Material::Video Frame.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 46131726, "Texture::Video Frame.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Video Frame.png"
+		Media: "Video::Video Frame.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Video Frame.png"
+		RelativeFilename: "Video Frame.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 5588091, "Video::Video Frame.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Video Frame.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Video Frame.png"
+		RelativeFilename: "Video Frame.png"
+	}
+	Material: 80549634, "Material::Platform1.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 26424883, "Texture::Platform1.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Platform1.png"
+		Media: "Video::Platform1.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform1.png"
+		RelativeFilename: "Platform1.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 79319314, "Video::Platform1.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform1.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform1.png"
+		RelativeFilename: "Platform1.png"
+	}
+	Material: 42646154, "Material::Platform2.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 82538553, "Texture::Platform2.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Platform2.png"
+		Media: "Video::Platform2.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform2.png"
+		RelativeFilename: "Platform2.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 5737232, "Video::Platform2.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform2.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform2.png"
+		RelativeFilename: "Platform2.png"
+	}
+	Material: 67494825, "Material::Platform3.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 77654280, "Texture::Platform3.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Platform3.png"
+		Media: "Video::Platform3.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform3.png"
+		RelativeFilename: "Platform3.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 8415273, "Video::Platform3.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform3.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform3.png"
+		RelativeFilename: "Platform3.png"
+	}
+	Material: 98033042, "Material::Platform4.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 83210156, "Texture::Platform4.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Platform4.png"
+		Media: "Video::Platform4.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform4.png"
+		RelativeFilename: "Platform4.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 87102346, "Video::Platform4.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform4.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Platform4.png"
+		RelativeFilename: "Platform4.png"
+	}
+	Material: 71029699, "Material::WaterMark.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 57094707, "Texture::WaterMark.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::WaterMark.png"
+		Media: "Video::WaterMark.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\WaterMark.png"
+		RelativeFilename: "WaterMark.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 82736917, "Video::WaterMark.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\WaterMark.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\WaterMark.png"
+		RelativeFilename: "WaterMark.png"
+	}
+	Material: 17081656, "Material::Watermark 2.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 73495308, "Texture::Watermark 2.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Watermark 2.png"
+		Media: "Video::Watermark 2.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Watermark 2.png"
+		RelativeFilename: "Watermark 2.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 42045588, "Video::Watermark 2.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Watermark 2.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Watermark 2.png"
+		RelativeFilename: "Watermark 2.png"
+	}
+	Material: 58960052, "Material::Watermark 3.png", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties70:  {
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0.8,0.8,0.8
+			P: "Opacity", "double", "Number", "",1
+		}
+	}
+	Texture: 81022667, "Texture::Watermark 3.png", "" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::Watermark 3.png"
+		Media: "Video::Watermark 3.png"
+		FileName: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Watermark 3.png"
+		RelativeFilename: "Watermark 3.png"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
+	Video: 37054128, "Video::Watermark 3.png", "Clip" {
+		Type: "Clip"
+		Properties70:  {
+			P: "Path", "KString", "XRefUrl", "", "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Watermark 3.png"
+		}
+		UseMipMap: 0
+		Filename: "C:\Users\c.legaspi681\OneDrive - Bow Valley College\Documents\GitHub\Final_Project-QB-10\Watermark 3.png"
+		RelativeFilename: "Watermark 3.png"
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	C: "OO",39704748,0
+	C: "OO",90293817,39704748
+	C: "OO",32664236,39704748
+	C: "OO",67653248,0
+	C: "OO",79047130,67653248
+	C: "OO",11956655,67653248
+	C: "OO",20814873,0
+	C: "OO",73068726,20814873
+	C: "OO",76989213,20814873
+	C: "OO",45027830,0
+	C: "OO",45604593,45027830
+	C: "OO",98033042,45027830
+	C: "OO",54101785,0
+	C: "OO",24673883,54101785
+	C: "OO",58960052,54101785
+	C: "OP",73543408,76989213, "DiffuseColor"
+	C: "OO",19852118,73543408
+	C: "OP",99046833,46819199, "DiffuseColor"
+	C: "OO",8700906,99046833
+	C: "OP",35950186,58768609, "DiffuseColor"
+	C: "OO",52238250,35950186
+	C: "OP",92676776,32664236, "DiffuseColor"
+	C: "OO",14087367,92676776
+	C: "OP",46131726,11956655, "DiffuseColor"
+	C: "OO",5588091,46131726
+	C: "OP",26424883,80549634, "DiffuseColor"
+	C: "OO",79319314,26424883
+	C: "OP",82538553,42646154, "DiffuseColor"
+	C: "OO",5737232,82538553
+	C: "OP",77654280,67494825, "DiffuseColor"
+	C: "OO",8415273,77654280
+	C: "OP",83210156,98033042, "DiffuseColor"
+	C: "OO",87102346,83210156
+	C: "OP",57094707,71029699, "DiffuseColor"
+	C: "OO",82736917,57094707
+	C: "OP",73495308,17081656, "DiffuseColor"
+	C: "OO",42045588,73495308
+	C: "OP",81022667,58960052, "DiffuseColor"
+	C: "OO",37054128,81022667
+}
+
+; Takes section
+;------------------------------------------------------------------
+
+Takes:  {
+	Current: ""
+}
