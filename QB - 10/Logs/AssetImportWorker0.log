@@ -15,7 +15,7 @@ C:/Users/c.legaspi681/OneDrive - Bow Valley College/Documents/GitHub/Final_Proje
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57825
+58507
 Successfully changed project path to: C:/Users/c.legaspi681/OneDrive - Bow Valley College/Documents/GitHub/Final_Project-QB-10/QB - 10
 C:/Users/c.legaspi681/OneDrive - Bow Valley College/Documents/GitHub/Final_Project-QB-10/QB - 10
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/c.legaspi681/OneDrive - Bow Valley College/Documents/GitHub/Final_Proje
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1976] Host "[IP] 172.28.0.101 [Port] 0 [Flags] 2 [Guid] 4176099072 [EditorId] 4176099072 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL031) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12976] Host "[IP] 172.28.0.101 [Port] 0 [Flags] 2 [Guid] 2498521568 [EditorId] 2498521568 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL031) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1976] Host "[IP] 172.28.0.101 [Port] 0 [Flags] 2 [Guid] 4176099072 [EditorId] 4176099072 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL031) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12976] Host "[IP] 172.28.0.101 [Port] 0 [Flags] 2 [Guid] 2498521568 [EditorId] 2498521568 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL031) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 14.51 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 15.44 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -70,17 +70,17 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 2.207512 seconds.
-- Loaded All Assemblies, in  2.828 seconds
+Registered in 0.026253 seconds.
+- Loaded All Assemblies, in  0.585 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.326 seconds
-Domain Reload Profiling: 3130ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 909ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -88,26 +88,26 @@ Domain Reload Profiling: 3130ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (49ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (2331ms)
-	LoadAllAssembliesAndSetupDomain (171ms)
-		LoadAssemblies (229ms)
+	initialDomainReloadingComplete (120ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (204ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (147ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (150ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (326ms)
+	FinalizeReload (336ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (262ms)
+		SetupLoadedEditorAssemblies (270ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,51 +115,51 @@ Domain Reload Profiling: 3130ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.944 seconds
-Refreshing native plugins compatible for Editor in 10.78 ms, found 5 plugins.
+- Loaded All Assemblies, in  1.020 seconds
+Refreshing native plugins compatible for Editor in 8.09 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.818 seconds
-Domain Reload Profiling: 1741ms
-	BeginReloadAssembly (245ms)
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 1785ms
+	BeginReloadAssembly (255ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (45ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (47ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (539ms)
-		LoadAssemblies (522ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (561ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (140ms)
-				TypeCache.ScanAssembly (123ms)
-			ScanForSourceGeneratedMonoScriptInfo (31ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (819ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (783ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (606ms)
+		SetupLoadedEditorAssemblies (573ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (139ms)
-			ProcessInitializeOnLoadAttributes (271ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
-			AfterProcessingInitializeOnLoad (62ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (52ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 7.78 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 9.23 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4416 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 84 unused Assets / (421.5 KB). Loaded Objects now: 4905.
-Memory consumption went from 169.6 MB to 169.2 MB.
-Total: 4.536700 ms (FindLiveObjects: 0.534500 ms CreateObjectMapping: 0.161300 ms MarkObjects: 3.507400 ms  DeleteObjects: 0.332100 ms)
+Memory consumption went from 169.7 MB to 169.3 MB.
+Total: 4.389300 ms (FindLiveObjects: 0.441300 ms CreateObjectMapping: 0.175600 ms MarkObjects: 3.483200 ms  DeleteObjects: 0.288000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -176,179 +176,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 58399.692388 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/Checkerboard_Skybox.mat
-  artifactKey: Guid(0f05ec8e58e732b40873112088fb3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/Checkerboard_Skybox.mat using Guid(0f05ec8e58e732b40873112088fb3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba4c21f70e268caa87b7764e19aeb23') in 0.124401 seconds
+  Time since last request: 60274.706688 seconds.
+  path: Assets/Art/Materials/QB-10 Materials/Qb-10 Golem Toon_material Variant.mat
+  artifactKey: Guid(bfc9c9ede20d2ea4499b4e072efcadd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/QB-10 Materials/Qb-10 Golem Toon_material Variant.mat using Guid(bfc9c9ede20d2ea4499b4e072efcadd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9971a58d87ee0c9bea5263606b59f63c') in 0.173916 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 18.980318 seconds.
-  path: Assets/Art/Textures/New checker skybbx 1.png
-  artifactKey: Guid(9490d0ac19abf02468c75798a44239cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/New checker skybbx 1.png using Guid(9490d0ac19abf02468c75798a44239cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3d65bf4c79d5b9940f9460347c60fd') in 0.052220 seconds
+  Time since last request: 367.137244 seconds.
+  path: Assets/Art/Animation/QB-10_animation/QB-10 Golem
+  artifactKey: Guid(671b3d3b6afa1a240be0686995c28beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/QB-10_animation/QB-10 Golem using Guid(671b3d3b6afa1a240be0686995c28beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f800f9d2b236497dda1d05f6237715d') in 0.000701 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 25.523602 seconds.
-  path: Assets/Art/Textures/New checker skybbx 1.png
-  artifactKey: Guid(9490d0ac19abf02468c75798a44239cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/New checker skybbx 1.png using Guid(9490d0ac19abf02468c75798a44239cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd644b1d694d73f5532f37dca943e0e5a') in 0.013986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 17.772642 seconds.
-  path: Assets/Art/Textures/New checker skybbx 1.png
-  artifactKey: Guid(9490d0ac19abf02468c75798a44239cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/New checker skybbx 1.png using Guid(9490d0ac19abf02468c75798a44239cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b691b4c1dc1b5bfbee3105db1283fc96') in 2.393789 seconds
+  Time since last request: 29.760372 seconds.
+  path: Assets/Art/Animation/QB-10_animation/QB-10 Golem/GolemAnimator.anim
+  artifactKey: Guid(e45a42f73cd0d9c4baebfa64893752a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/QB-10_animation/QB-10 Golem/GolemAnimator.anim using Guid(e45a42f73cd0d9c4baebfa64893752a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba308bdb544009735bdd5d727607a914') in 0.001538 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 61.924803 seconds.
-  path: Assets/Art/Textures/New checker skybbx 1.png
-  artifactKey: Guid(9490d0ac19abf02468c75798a44239cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/New checker skybbx 1.png using Guid(9490d0ac19abf02468c75798a44239cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc80cb27e338b640dd244279f174b83') in 0.027072 seconds
+  Time since last request: 29.565824 seconds.
+  path: Assets/Art/Animation/QB-10_animation/QB-10 Golem/GolemAnimationGolem.controller
+  artifactKey: Guid(dc9edcb947aac7d4494a667d5198fe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/QB-10_animation/QB-10 Golem/GolemAnimationGolem.controller using Guid(dc9edcb947aac7d4494a667d5198fe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4e1a48524fa4f8278fdc967537567c') in 0.002070 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 43.406617 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/Checkerboard_Skybox.mat
-  artifactKey: Guid(0f05ec8e58e732b40873112088fb3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/Checkerboard_Skybox.mat using Guid(0f05ec8e58e732b40873112088fb3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ba87943996f022174dab84c28cdba8') in 0.016358 seconds
+  Time since last request: 46.727030 seconds.
+  path: Assets/Art/Animation/QB-10_animation/QB-10 Golem/GolemSceneAnimationGolem.controller
+  artifactKey: Guid(dc9edcb947aac7d4494a667d5198fe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/QB-10_animation/QB-10 Golem/GolemSceneAnimationGolem.controller using Guid(dc9edcb947aac7d4494a667d5198fe80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9693c139099c5c7153f22fc304888db2') in 0.001717 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 19.449648 seconds.
-  path: Assets/Scenes/GolemPlace.unity
-  artifactKey: Guid(e3ba570b7b258774baeba64332aeed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GolemPlace.unity using Guid(e3ba570b7b258774baeba64332aeed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e650f998aa24591fed174335d6fcea') in 0.000706 seconds
+  Time since last request: 19.845555 seconds.
+  path: Assets/Art/Animation/QB-10_animation/QB-10 Golem/AnimationGolemController.controller
+  artifactKey: Guid(2c5d04849151ae14c9ec37dbd202d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/QB-10_animation/QB-10 Golem/AnimationGolemController.controller using Guid(2c5d04849151ae14c9ec37dbd202d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2598eebae2c1da943db4438c80b96f26') in 0.001354 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 37.419858 seconds.
-  path: Assets/Art/Models/Q!B-10 Golem 2.0.fbx
-  artifactKey: Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Q!B-10 Golem 2.0.fbx using Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c73a787a174353e62793b5b5e95078') in 0.255051 seconds
+  Time since last request: 135.929696 seconds.
+  path: Assets/Art/Animation/QB-10_animation/QB-10 Golem/AnimationGolemController.controller
+  artifactKey: Guid(2c5d04849151ae14c9ec37dbd202d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/QB-10_animation/QB-10 Golem/AnimationGolemController.controller using Guid(2c5d04849151ae14c9ec37dbd202d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e432345af22baa36b6d61652a2517f4') in 0.003499 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 317
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 16.959633 seconds.
-  path: Assets/Art/Textures/QB-10 Golem 1.png
-  artifactKey: Guid(e9788dd5e8bb07d458cf44f66827ab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/QB-10 Golem 1.png using Guid(e9788dd5e8bb07d458cf44f66827ab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6e14bad40e49bf1b0500649aa9b2ce') in 0.021998 seconds
+  Time since last request: 42.061226 seconds.
+  path: Assets/Art/Animation/QB-10_animation/QB-10 Golem/AnimationGolemController.controller
+  artifactKey: Guid(2c5d04849151ae14c9ec37dbd202d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/QB-10_animation/QB-10 Golem/AnimationGolemController.controller using Guid(2c5d04849151ae14c9ec37dbd202d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ab40fa30c6da0cfb13e5e87bd1f490') in 0.003194 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.120513 seconds.
-  path: Assets/Art/Models/Q!B-10 Golem 2.0.fbx
-  artifactKey: Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Q!B-10 Golem 2.0.fbx using Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95190edc381e3659c8afb592d107502b') in 0.247183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 318
-========================================================================
-Received Import Request.
-  Time since last request: 40.610217 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/Qb-10 Golem Toon_material Variant.mat
-  artifactKey: Guid(bfc9c9ede20d2ea4499b4e072efcadd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/Qb-10 Golem Toon_material Variant.mat using Guid(bfc9c9ede20d2ea4499b4e072efcadd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152aae4adfb6beec922268b61d7eb2c7') in 0.035202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 50.716670 seconds.
-  path: Assets/Art/Textures/QB-10 Golem 1.png
-  artifactKey: Guid(e9788dd5e8bb07d458cf44f66827ab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Textures/QB-10 Golem 1.png using Guid(e9788dd5e8bb07d458cf44f66827ab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3cd2ef4b89238f79669fef50535ae1') in 0.047092 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.204680 seconds.
-  path: Assets/Art/Models/Q!B-10 Golem 2.0.fbx
-  artifactKey: Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Models/Q!B-10 Golem 2.0.fbx using Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa1405eb5856845b169b49af5267442') in 0.213291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 318
-========================================================================
-Received Import Request.
-  Time since last request: 206.331753 seconds.
-  path: Assets/Art/Materials/QB-10 Materials/Qb-10 Golem Toon_material Variant.mat
-  artifactKey: Guid(bfc9c9ede20d2ea4499b4e072efcadd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/QB-10 Materials/Qb-10 Golem Toon_material Variant.mat using Guid(bfc9c9ede20d2ea4499b4e072efcadd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf27f33405c383ad1c65fecc7bd67cd') in 0.021811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 7.244981 seconds.
-  path: Assets/Scenes/TheAnimaticaPlace.unity
-  artifactKey: Guid(a46e62fa98bd3474e9ef0f623d965e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TheAnimaticaPlace.unity using Guid(a46e62fa98bd3474e9ef0f623d965e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e84d4465792d500cb44e9fdff4b5237') in 0.000871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 18.187005 seconds.
-  path: Assets/Scenes/GolemPlace.unity
-  artifactKey: Guid(e3ba570b7b258774baeba64332aeed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GolemPlace.unity using Guid(e3ba570b7b258774baeba64332aeed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff6288c093136e2c09cbc4ea617a43a') in 0.000750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.778 seconds
-Refreshing native plugins compatible for Editor in 7.95 ms, found 5 plugins.
+- Loaded All Assemblies, in  2.608 seconds
+Refreshing native plugins compatible for Editor in 10.13 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.309 seconds
-Domain Reload Profiling: 2062ms
-	BeginReloadAssembly (261ms)
+- Finished resetting the current domain, in  1.347 seconds
+Domain Reload Profiling: 3927ms
+	BeginReloadAssembly (309ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (362ms)
-		LoadAssemblies (511ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (2113ms)
+		LoadAssemblies (2297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
+		AnalyzeDomain (17ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (1309ms)
+	FinalizeReload (1348ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (526ms)
+		SetupLoadedEditorAssemblies (573ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (222ms)
-			ProcessInitializeOnLoadMethodAttributes (93ms)
-			AfterProcessingInitializeOnLoad (61ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (53ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (41ms)
-Refreshing native plugins compatible for Editor in 7.81 ms, found 5 plugins.
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 8.35 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4387 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (391.7 KB). Loaded Objects now: 4970.
-Memory consumption went from 167.6 MB to 167.2 MB.
-Total: 4.235500 ms (FindLiveObjects: 0.521300 ms CreateObjectMapping: 0.165600 ms MarkObjects: 3.370300 ms  DeleteObjects: 0.176800 ms)
+Unloading 42 unused Assets / (391.6 KB). Loaded Objects now: 4963.
+Memory consumption went from 167.3 MB to 166.9 MB.
+Total: 4.299200 ms (FindLiveObjects: 0.571900 ms CreateObjectMapping: 0.175300 ms MarkObjects: 3.376400 ms  DeleteObjects: 0.174400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -364,3 +300,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.932277 seconds.
+  path: Assets/Art/Models/Q!B-10 Golem 2.0.fbx
+  artifactKey: Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Q!B-10 Golem 2.0.fbx using Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2956a106435c6f3baeac595104c98e98') in 0.346601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 318
+========================================================================
+Received Import Request.
+  Time since last request: 7.810281 seconds.
+  path: Assets/Art/Models/Q!B-10 Golem 2.0.fbx
+  artifactKey: Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Q!B-10 Golem 2.0.fbx using Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811cd793e9659fac82f9731cdeef5b85') in 0.259589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 318
+========================================================================
+Received Import Request.
+  Time since last request: 6.701995 seconds.
+  path: Assets/Art/Models/Q!B-10 Golem 2.0.fbx
+  artifactKey: Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Q!B-10 Golem 2.0.fbx using Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21d26e2d96c881687bdc7a372b26486') in 0.256743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 318
+========================================================================
+Received Import Request.
+  Time since last request: 6.205987 seconds.
+  path: Assets/Art/Models/Q!B-10 Golem 2.0.fbx
+  artifactKey: Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Models/Q!B-10 Golem 2.0.fbx using Guid(867741dad6ca1844d9afb3bece8083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8277a99f08f869d2dc73a8cbcd8555') in 0.259084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 318
